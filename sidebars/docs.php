@@ -17,12 +17,12 @@ return array(
 		),
 
 	'game_sidebar' => array(
-
+			array('Game Home', 'home', 'icon-home'),
 		),
 
 	'modding_sidebar' => array(
-
-		),
+			array('Modding Home', 'home', 'icon-home'),
+		),	
 
 );
 
