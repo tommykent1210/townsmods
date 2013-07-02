@@ -11,6 +11,8 @@ Requests are made by doing the following:
 <ol>
 	<li>Creating an array of request data</li>
 	<li>Encoding that array into a JSON format</li>
+  <li>Encoding the JSON into a URL friendly format (IE: <a href="http://php.net/manual/en/function.urlencode.php">urlencode()</a> in PHP)</li>
+  <li>Encrypting the data</li>
 	<li>Submitting that to the API</li>
 </ol>
 </p>
