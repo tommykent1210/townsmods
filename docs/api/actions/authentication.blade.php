@@ -14,7 +14,7 @@
 
 <div class="well well-small">
 	<a id="login"></a><h4>Login (Username) <small>- Action name: "auth_login"</small></h4>
-	Handles the login of the user, using their username and password. Returns a result and a session variable.
+	<p>Handles the login of the user, using their username and password. Returns a result and a session variable.</p>
 
 	<strong>Request:</strong>
 	<table class="table table-bordered table-striped">
@@ -69,7 +69,7 @@
 
 <div class="well well-small">
 	<a id="login_email"></a><h4>Login (Email) <small>- Action name: "auth_login_email"</small></h4>
-	Handles the login of the user, using their email and password. Returns a result and a session variable.
+	<p>Handles the login of the user, using their email and password. Returns a result and a session variable.</p>
 
 	<strong>Request:</strong>
 	<table class="table table-bordered table-striped">
@@ -123,7 +123,7 @@
 
 <div class="well well-small">
 	<a id="logout"></a><h4>Logout <small>- Action name: "auth_logout"</small></h4>
-	Handles the logout of a user, deleting their session.
+	<p>Handles the logout of a user, deleting their session.</p>
 
 	<strong>Request:</strong>
 	<table class="table table-bordered table-striped">
