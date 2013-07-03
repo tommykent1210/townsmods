@@ -13,7 +13,7 @@ return array(
 	'api_sidebar_actions' => array(
 			array('Actions Overview', 'actions-home', 'icon-globe'),
 			array('Authentication', 'actions-authentication', 'icon-lock'),
-			array('Retrieve Profile', 'actions-profile', 'icon-user'),
+			array('Profile', 'actions-profile', 'icon-user'),
 		),
 
 	'game_sidebar' => array(

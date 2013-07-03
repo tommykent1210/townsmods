@@ -11,8 +11,8 @@ Requests are made by doing the following:
 <ol>
 	<li>Creating an array of request data</li>
 	<li>Encoding that array into a JSON format</li>
-  <li>Encoding the JSON into a URL friendly format (IE: <a href="http://php.net/manual/en/function.urlencode.php">urlencode()</a> in PHP)</li>
-  <li>Encrypting the data</li>
+  <li>Encrypting the data and converting to Base64 (IE: <a href="http://www.php.net/manual/en/function.base64-encode.php">base64_encode()</a> in PHP)</li>
+  <li>Encoding the encrypted string into Base64 once again to make the data safe for URL passing</li>
 	<li>Submitting that to the API</li>
 </ol>
 </p>
