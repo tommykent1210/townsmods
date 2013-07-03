@@ -19,7 +19,7 @@ Documentation
 					<img data-src="holder.js/300x200" alt="">
 					
 					<p>
-						<a href="{{URL::to('docs/game')}}" class="btn btn-block btn-success"><i class="icon-gamepad"></i> Game Docs</a>
+						<a href="#" class="btn btn-block btn-success disabled"><i class="icon-gamepad"></i> Game Docs</a>
 					</p>
 				</div>
 			</li>
@@ -28,7 +28,7 @@ Documentation
 					<img data-src="holder.js/300x200" alt="">
 					
 					<p>
-						<a href="{{URL::to('docs/modding')}}" class="btn btn-block btn-success"><i class="icon-edit"></i> Modding Docs</a>
+						<a href="#" class="btn btn-block btn-success disabled"><i class="icon-edit"></i> Modding Docs</a>
 					</p>
 				</div>
 			</li>
@@ -42,6 +42,10 @@ Documentation
 				</div>
 			</li>
 		</ul>
+
+		<div class="alert alert-info">
+			<strong>Want to help improve these Docs?</strong> You can help us add new pages and maintain the current ones by visiting our <a href="https://github.com/tommykent1210/townsmods" class="btn btn-info btn-small"><i class="icon-github"></i> GitHub</a>
+		</div>
 	</div>
 	
 </div>

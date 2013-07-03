@@ -9,6 +9,7 @@
 		<ul >
 			<li><a href="{{URL::to('docs/api/actions-authentication#login')}}">Login (Username)</a></li>
 			<li><a href="{{URL::to('docs/api/actions-authentication#login_email')}}">Login (Email)</a></li>
+			<li><a href="{{URL::to('docs/api/actions-authentication#logout')}}">Logout</a></li>
 		</ul>
 	</li>
 	<li><i class="icon-li icon-user"></i> Profile:

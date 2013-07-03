@@ -17,7 +17,7 @@ We use MCRYPT_RIJNDAEL_256 as our cipher and cipher mode CBC. Your encryption ke
 <strong>NOTE:</strong>This example is in PHP, for other languages please see their respective manuals and documentation.
 </div>
 
-<pre class="prettyprint lang-php">
+<pre class="prettyprint lang-php linenums">
 class Encrypter {
 
 	/**

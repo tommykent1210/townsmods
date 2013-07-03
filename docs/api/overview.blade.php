@@ -18,7 +18,7 @@ The aim is to provide an easy, reliable API for developers to connect to, and to
 <h4>How does it work?</h4>
 <p>The API utilises two major web technologies - XML and JSON. Requests to the API are made by forming a JSON array, 
 	and then submitted to the API. From there, you may request either a JSON response or an XML response. To make requests
-you require an API key (which can be obtained from <a href="{{URL::to('user/ucp/api/request')}}"><i class="icon-dropbox"></i> here</a>), 
+you require an API key (which can be obtained from <a href="{{URL::to('user/ucp/api')}}"><i class="icon-dropbox"></i> here</a>), 
 and an encryption key.</p>
 
 <h4>Encryption</h4>
