@@ -122,7 +122,7 @@
 </div>
 
 <div class="well well-small">
-	<a id="login"></a><h4>Logout <small>- Action name: "auth_logout"</small></h4>
+	<a id="logout"></a><h4>Logout <small>- Action name: "auth_logout"</small></h4>
 	Handles the logout of a user, deleting their session.
 
 	<strong>Request:</strong>
