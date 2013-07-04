@@ -82,7 +82,7 @@
 		<tr>
 			<td><em>email</em></td>
 			<td>The email of the user</td>
-			<td>testuser</td>
+			<td>testuser@test.com</td>
 		</tr>
 		<tr>
 			<td><em>password</em></td>

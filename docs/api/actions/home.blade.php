@@ -12,10 +12,16 @@
 			<li><a href="{{URL::to('docs/api/actions-authentication#logout')}}">Logout</a></li>
 		</ul>
 	</li>
-	<li><i class="icon-li icon-user"></i> Profile:
+	<li><i class="icon-li icon-user"></i> Profiles:
 		<ul >
 			<li><a href="{{URL::to('docs/api/actions-profile#get')}}">Get Profile</a></li>
 			<li><a href="{{URL::to('docs/api/actions-profile#get_id')}}">Get User ID</a></li>
+			<li><a href="{{URL::to('docs/api/actions-profile#get_likes')}}">Get Likes</a></li>
+		</ul>
+	</li>
+	<li><i class="icon-li icon-puzzle-piece"></i> Projects:
+		<ul >
+			<li><a href="{{URL::to('docs/api/actions-profile#get_info')}}">Get Info</a></li>
 		</ul>
 	</li>
 </ul>
