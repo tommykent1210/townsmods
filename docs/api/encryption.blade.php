@@ -12,7 +12,7 @@ Our encryption class is an altered version of the <a href="http://three.laravel.
 We use MCRYPT_RIJNDAEL_256 as our cipher and cipher mode CBC. Your encryption key will be 32 characters in length, and provides security for all data transfers.
 </p>
 
-<legend></legend><h4>Sample Encryption Class</h4>
+<legend></legend><a id="crypter"></a><h4>Sample Encryption Class</h4>
 <div class="alert alert-success">
 <strong>NOTE:</strong>This example is in PHP, for other languages please see their respective manuals and documentation.
 </div>

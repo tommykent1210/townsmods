@@ -8,12 +8,14 @@ return array(
 			array('Getting Started', 'getting_started', 'icon-cogs'),
 			array('Encryption', 'encryption', 'icon-lock'),
 			array('Actions', 'actions', 'icon-screenshot'),
+			array('Samples', 'samples', 'icon-edit'),
 		),
 
 	'api_sidebar_actions' => array(
 			array('Actions Overview', 'actions-home', 'icon-globe'),
 			array('Authentication', 'actions-authentication', 'icon-lock'),
-			array('Profile', 'actions-profile', 'icon-user'),
+			array('Profiles', 'actions-profile', 'icon-user'),
+			array('Projects', 'actions-project', 'icon-puzzle-piece'),
 		),
 
 	'game_sidebar' => array(

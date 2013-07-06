@@ -29,7 +29,7 @@
   <li class="span4">
   	<div class="thumbnail">
 	    <a href="#" class="thumbnail">
-	      <img src="../../../public/static/img/ucp_api.png" alt="API Keys">
+	      <img src="{{URL::to('/static/img/ucp_api.png')}}" alt="API Keys">
 	    </a>
 	    <small><strong>Above:</strong> Your API key list and generate button</small>
 	   </div>
